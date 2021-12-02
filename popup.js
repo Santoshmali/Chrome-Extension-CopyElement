@@ -18,8 +18,8 @@ function getElementHtml() {
     chrome.storage.sync.get("copyelementid", ({ copyelementid }) => {
         let element = document.getElementById(copyelementid);
         if (element) {
-            navigator.clipboard.writeText(element.innerHTML);
             alert('Inner html of "' + copyelementid  +'" copied to clipboard!');
+            navigator.clipboard.writeText(element.innerHTML);            
         }
         else {
             alert('Element not found');
