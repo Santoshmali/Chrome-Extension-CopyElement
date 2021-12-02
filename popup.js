@@ -19,7 +19,7 @@ function getElementHtml() {
         let element = document.getElementById(copyelementid);
         if (element) {
             alert('Inner html of "' + copyelementid  +'" copied to clipboard!');
-            navigator.clipboard.writeText(element.innerHTML);            
+            navigator.clipboard.writeText(element.outerHTML);            
         }
         else {
             alert('Element not found');
