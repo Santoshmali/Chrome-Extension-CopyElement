@@ -1,6 +1,6 @@
 {
   "name": "Copy Element",
-  "description": "Extension built to copy html element from DOM for provided elementid!. Extensions can not inject content scripts on internal Chrome pages like chrome://extensions. Be sure to try out the extension on a real webpage like https://google.com.",
+  "description": "Extension built to copy html element from DOM for provided elementid!. Setup element id from Options page",
   "version": "2.0",
   "manifest_version": 3,
   "background": {
